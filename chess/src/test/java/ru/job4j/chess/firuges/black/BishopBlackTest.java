@@ -42,6 +42,4 @@ class BishopBlackTest {
         String expected = "Could not way by diagonal from C1 to D7";
         assertThat(exception.getMessage()).isEqualTo(expected);
     }
-
-
 }
